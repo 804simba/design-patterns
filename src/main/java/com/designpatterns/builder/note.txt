@@ -11,4 +11,8 @@ The `director` is a class that contains a series of calls to the builder steps w
 used to create a product. It defines the order in which to execute the building steps, while the
 builder provides the implementation of those steps.
 
+We obtain the result of the construction from the builder who performed the job instead of tight coupling
+the director with the concrete product classes which would mean that a method of getting the result is added in
+the director class.
+
 

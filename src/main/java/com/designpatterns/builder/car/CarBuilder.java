@@ -33,6 +33,9 @@ public class CarBuilder implements Builder {
 
     @Override
     public void setGPS(boolean b) {
-
+        car.setGPS(b);
+    }
+    public Car getProduct() {
+        return car;
     }
 }
