@@ -12,6 +12,10 @@ import lombok.Data;
  * An object that supports cloning is called a prototype. When your object has
  * dozens of fields and hundreds of configurations, cloning them might serve as
  * an alternative that subclassing.
+ *
+ * The prototype patterns lets you use a set of pre-built objects, configured in
+ * various ways, as prototypes. Instead of instantiating a subclass that matches
+ * some configuration, the client can simply look for an appropriate prototype and clone it.
  * */
 @Data
 public abstract class Shape {

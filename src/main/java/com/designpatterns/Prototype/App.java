@@ -3,7 +3,10 @@ package com.designpatterns.Prototype;
 import lombok.Getter;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 @Getter
 public class App {
     private final List<Shape> shapes = new ArrayList<>();
@@ -27,7 +30,6 @@ public class App {
         Rectangle anotherRectangle = (Rectangle) rectangle.clone();;
         shapes.add(anotherRectangle);
     }
-
     public static void main(String[] args) {
         App app = new App();
         System.out.println(app.getShapes());
