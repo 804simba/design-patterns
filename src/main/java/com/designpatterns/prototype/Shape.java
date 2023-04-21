@@ -1,4 +1,4 @@
-package com.designpatterns.Prototype;
+package com.designpatterns.prototype;
 
 import lombok.Data;
 
