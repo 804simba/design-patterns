@@ -3,8 +3,15 @@ package com.designpatterns.mediator;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Mediator is a behavioural design pattern that eliminates direct connections between senders and receivers, rather it forces them to
+ * communicate through a mediator object. It helps reduces chaotic dependencies between objects.
+ *
+ * */
+
 public class ChatMediatorImpl implements ChatMediator {
     private final List<User> users;
+    // https://refactoring.guru/design-patterns/mediator
 
     public ChatMediatorImpl() {
         this.users = new ArrayList<>();

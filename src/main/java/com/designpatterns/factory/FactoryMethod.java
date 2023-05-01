@@ -1,4 +1,4 @@
-package com.designpatterns.factorymethod;
+package com.designpatterns.factory;
 
 // both truck and ship classes should implement the transport interface and have their own implementations.
 

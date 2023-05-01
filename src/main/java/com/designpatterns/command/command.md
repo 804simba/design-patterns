@@ -1,0 +1,1 @@
+Command patterns establishes unidirectional connections between senders and receivers.

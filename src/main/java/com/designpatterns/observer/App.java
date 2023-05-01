@@ -8,6 +8,8 @@ package com.designpatterns.observer;
  * The object with an interesting state (subject) and is going to notify other objects (observers)
  * about changes to its state is called a `publisher` while all other objects that tracks changes
  * to the publisher's state are called `subscribers`.
+ *
+ * Observer patterns allows receivers dynamically subscribe and unsubscribe from receiving requests.
  * */
 public class App {
     public static void main(String[] args) {
